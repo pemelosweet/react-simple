@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <div id="c">
+        <div>12312313</div>
+        <button onclick="alert('Button clicked!')">Click me</button>
+        <button onclick="fn()">Click me</button>
+
+    </div>
+</body>
+<script>
+    function fn() {
+        let divDom = document.getElementById('c')
+        console.log(divDom, 'divDom');
+        console.log(document,'document');
+    }
+</script>
+
+</html>
